@@ -1,0 +1,302 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.container_main_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation_menu_wrapper{
+    width: 80px;
+    height: 65%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_menu_wrapper a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.navigation_menu_wrapper a:hover{
+    background: darkgoldenrod;
+    filter: invert(1); 
+}
+
+.navigation_menu_wrapper a:nth-child(1){
+    background: darkgoldenrod;
+    filter: invert(1); 
+}
+
+.menu{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: royalblue;
+}
+
+.main_content_wrapper{
+    width: 98%;
+    height: 85%;
+    background: silver;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.container_about{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.project_and_company_name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_name{
+    padding: 40px;
+    width: 625px;
+    height: 120px;  
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project_name p:nth-child(1){
+    font-family: ChronicaPro-Regular;
+    font-size: 15px;
+    color: black;
+    opacity: .5;
+}
+
+.project_name p:nth-child(2){
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+}
+
+.company_name{
+    padding: 40px;
+    width: 625px;
+    height: 120px;  
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.company_name p:nth-child(1){
+    font-family: ChronicaPro-Regular;
+    font-size: 15px;
+    color: black;
+    opacity: .5;
+}
+
+.company_name p:nth-child(2){
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+}
+
+.description_team_data_portability_wrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    padding: 40px;
+    width: 800px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.description p:nth-child(1){
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+}
+
+.description p:nth-child(2){
+    font-family: ChronicaPro-Regular;
+    font-size: 15px;
+    color: black;
+    opacity: .5;
+    line-height: 25px;
+}
+
+.team{
+    margin-top: 40px;
+    padding: 40px;
+    width: 800px;
+    height: 180px;  
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team_img{
+    height: 100%;
+    width: 100px;
+}
+
+.team_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.team p:nth-child(1){
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+}
+
+.team p:nth-child(2){
+    font-family: ChronicaPro-Regular;
+    font-size: 15px;
+    color: black;
+    opacity: .5;
+}
+
+.team_text{
+    padding-left: 20px;
+}
+
+.portability{
+    padding: 40px;
+    width: 35%;
+    height: 400px; 
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.portability_img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.portability_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.portability p:nth-child(2){
+    font-family: bahij-sultannahia;
+    font-size: 30px;
+    color: black;
+}
+
+.portability p:nth-child(3){
+    font-family: ChronicaPro-Regular;
+    font-size: 15px;
+    color: black;
+    opacity: .5;
+    line-height: 25px;
+}
+
+.navigation_menu_wrapper a::after{
+    content: "";
+    width: 0;
+    height: 40px;
+    font-size: 18px;
+    color: black;
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: -5000px;
+    transition-property: width;
+    transition-duration: .7s;
+    overflow: hidden;
+}
+
+.navigation_menu_wrapper a:hover::after{
+    width: 90px;
+    left: 40px;
+}
+
+.navigation_menu_wrapper a:nth-child(1)::after{
+    content: "Project";
+}
+
+.navigation_menu_wrapper a:nth-child(2)::after{
+    content: "Account";
+}
+
+.navigation_menu_wrapper a:nth-child(3)::after{
+    content: "Groups";
+}
+
+.navigation_menu_wrapper a:nth-child(4)::after{
+    content: "Cloud";
+}
+
+.navigation_menu_wrapper a:nth-child(5)::after{
+    content: "Setting";
+}
